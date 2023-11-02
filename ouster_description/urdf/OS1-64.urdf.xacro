@@ -77,7 +77,7 @@
     <joint name="${name}_lidar_link_joint" type="fixed">
       <parent link="${name}" />
       <child link="${lidar_link}" />
-      <origin xyz="0.0 0.0 0.03618" rpy="0 0 0" />
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 3.14159" />
     </joint>
 
     <!-- Gazebo requires the ouster_gazebo_plugins package -->
